@@ -1,0 +1,35 @@
+* What is Clint side programming:-
+ a.It run on browser
+ b.it is used to interact with user via animation,acting to button click,bringing new content when scrolling them down.
+ c.To make UI,games ,etc.
+
+* What is server side programming:-
+ a.Itruns on server
+ b.it is used o handle account,password,request.database etc.
+ c.it is used to handle thing on server
+
+
+
+ * What is an API ?
+API (Application Programming Interface) is a set of protocols, routines, and tools that
+allow software applications to communicate with each other. It defines the methods a
+data formats that programs use to request and exchange information.
+It acts as a bridge between systems, enabling them to share data or functionality without exposing their internal details.
+
+Key Concepts of an API:-
+1.Interface:
+APIs define the methods and data formats that applications can use to communicate. For example, an API may allow you to fetch user information by calling a specific function or URL.
+
+2.Abstraction:
+APIs hide the complexity of a system's implementation, providing simple ways to interact with it. For instance, you don't need to know how a database is structured to fetch data via an API.
+
+
+
+
+
+ What is REST API?
+A REST API (Representational State Transfer Application Programming Interface) is a way for systems to communicate over the internet using 
+standard HTTP methods like GET, POST, PUT, DELETE, etc. It's a popular architecture for building web services due to its simplicity, scalability, 
+and compatibility with many programming languages.
+
+ 

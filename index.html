@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="time"></p>
+    <button id="click" onclick="clicked()"> click me</button>
+    <p id="p"> click me</p>
+<p>JavaScript array elements are accessed using numeric indexes (starting from 0).</p>
+<div id="container"> this is container</div>
+
+<p id="demo"></p>
+<script>
+    const car=["BMW","VOLVA","SHAB"];
+    car[0]="volva"
+    document.getElementById("demo").innerHTML=car;
+    document.getElementById("demo").style.color='red';
+
+    function clicked(){
+        document.getElementById("p").innerHTML="button is clicked";
+    }
+   // event listner
+    container.addEventListener("click", function(){ alert("Container is clicked"); });
+    container.addEventListener("mouseover", function(){ alert("Mouse is over"); });
+
+    // creating node 
+    const para = document.createElement("p");
+  const node = document.createTextNode("This is new.");
+    para.appendChild(node);
+
+    // to remove any html element
+    const elmnt = document.getElementById("p1");
+     elmnt.remove();
+     //to remove from anyspecific container
+     const parent = document.getElementById("div1");
+     const child = document.getElementById("p1");
+    parent.removeChild(child);
+
+  //to dispaly time
+  
+
+</script>
+
+    
+</body>
+</html>
